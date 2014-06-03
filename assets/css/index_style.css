@@ -1,0 +1,23 @@
+body
+{
+	background-image:url('../img/hp.jpg');
+	background-size:100%;
+	background-color:#cccccc;
+}
+
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: auto;
+	background-color:whitesmoke;
+}
+
+.container {
+	margin: auto;
+	height: 245px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}

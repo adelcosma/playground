@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Adriana Cosma</title>
 
     <!-- Bootstrap -->
     <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/index_style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,11 +18,23 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <div class="container">
+      <form class="form-signin" role="form">
+        <h2 class="form-signin-heading">Tell us who you are</h2>
+        <input type="email" class="form-control" placeholder="Email address" required="" autofocus="">
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Show me the books</button>
+      </form>
+
+    </div>
 
     <!-- jQuery  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Other libs -->
     <script src="lib/js/bootstrap.min.js"></script>
+    <!-- My libs-->
   </body>
 </html>
