@@ -1,0 +1,11 @@
+body
+{
+	background-image:url('../img/hp.jpg');
+	background-size:100%;
+	background-color:#030013;
+}
+
+#myEmail {
+	color: whitesmoke;
+	text-shadow: black 1px 1px;
+}
