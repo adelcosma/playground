@@ -5,14 +5,14 @@ body
 	background-color:#030013;
 }
 
-.form-signin {
+.index-form-signin {
 	max-width: 330px;
 	padding: 15px;
 	margin: auto;
 	background-color:whitesmoke;
 }
 
-.container {
+.index-container {
 	margin: auto;
 	height: 245px;
 	position: absolute;
