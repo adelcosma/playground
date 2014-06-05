@@ -7,6 +7,6 @@ function getParameterByName(name) {
 
 var email = getParameterByName('email');
 if (email)
-	$('#myEmail').html("<h1><b>Current email: </b>" + email + "</h1>");
+	$('#myEmail').html("<b>Current email: </b>" + email);
 else
-	$('#myEmail').html("<h1><b>No email</b></h1>");
+	$('#myEmail').html("<b>No email</b>");
