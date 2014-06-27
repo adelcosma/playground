@@ -13,7 +13,11 @@ function getParameterByName(name) {
     }
     return decodeURIComponent(results[1].replace(/\+/g, " "));
 }
-
+$.ajax({
+    url: 'http://localhost:8080/OpenBook/webresources/books',
+    type: 'GET',
+    success: function() { alert('PUT completed'); }
+});
 var email = getParameterByName('email');
 if (email)
 	$('#myEmail').html("<b>Current email: </b>" + email);
